@@ -57,7 +57,7 @@ export const ImgWrapper = styled(motion.div)`
 `;
 
 export const TopLine = styled(motion.div)`
-	font-size: 0.9rem;
+	font-size: 1.2rem;
 	line-height: 16px;
 	font-weight: 550;
 	letter-spacing: 1.4px;
@@ -81,7 +81,7 @@ export const Heading = styled(motion.h2)`
 	font-size: 3rem;
 	line-height: 1.1;
 	font-weight: 600;
-	color: ${({ inverse }) => (inverse ? '#0c4577' : 'white')};
+	color: ${({ inverse }) => (inverse ? '#ce2127' : 'white')};
 	@media screen and (max-width: 768px) {
 		text-align: center;
 	}

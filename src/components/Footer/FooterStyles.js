@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Column, Row } from '../../globalStyles';
 
 export const FooterContainer = styled.div`
-	background-color: #101522;
+	background-color: #f6cce1;
 	padding: 4rem 0 2rem 0;
 `;
 
