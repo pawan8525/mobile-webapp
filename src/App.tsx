@@ -8,8 +8,10 @@ import SignUp from './pages/SignupPage';
 import Pricing from './pages/PricingPage';
 import Navbar from './components/Navbar/NavBar';
 import Footer from './components/Footer/Footer';
+import i18next from 'i18next'
 
 function App() {
+i18next.changeLanguage('hi')
   return (
     <Router>
       <GlobalStyle/>

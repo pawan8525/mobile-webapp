@@ -8,41 +8,42 @@ import { GrHostMaintenance } from 'react-icons/gr';
 const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 
 export const featuresData = [
+
 	{
-		name: 'Best Security',
-		description: 'We offer the best data security to our clients, which makes us stand out',
-		icon: iconStyle(BsFillShieldLockFill),
-		imgClass: 'one',
-	},
-	{
-		name: 'Ease of Use',
-		description: 'Our system is easy to use and integrate',
-		icon: iconStyle(IoIosOptions),
+		name: 'Bridal Package',
+		description: 'Hydra Makeup, HD Makeup, Air Brush Makeup, Bridal package with hydra facial and air brush',
+		icon:'./assets/png/package.png',
 		imgClass: 'two',
 	},
 	{
-		name: 'Maintenance',
-		description: 'Our code is written in highest standards, which makes it highly sustainable',
-		icon: iconStyle(GrHostMaintenance),
+		name: 'Bleach',
+		description: 'Glow Diamond Bleach, Herbal Bleach, O3+ Meladerm Vitamin C Gel Bleach',
+		icon: './assets/png/bleach_de_tan.png',
 		imgClass: 'three',
 	},
 	{
-		name: '24/7 Support',
-		description: 'Our team is available at all times in case you need us',
-		icon: iconStyle(BiSupport),
+		name: 'Facial',
+		description: 'Hydro Facial(Most Popular), Skin lightening Facial,Anti Wrinkle Facial, Anti Pimple Facial, Glow Facial ',
+		icon: './assets/png/facial_clean_up.png',
 		imgClass: 'four',
 	},
 	{
-		name: 'Price',
-		description: 'We offer the highest value/cost ratio',
-		icon: iconStyle(BiDollar),
+		name: 'Hair Style',
+		description: 'Hair Global Color, High Lighting Hair, Smoothing Hair, Keratin Hair, Botox Hair, Olaplex Hair',
+		icon: './assets/png/hair_care.png',
+		imgClass: 'one',
+	},
+	{
+		name: 'Make Up',
+		description: 'Party Mackup, Evergreen Makup, Ring ceremony makeup, Corporate Makeup,Transforming Look Makeup',
+		icon: './assets/png/make_up.png',
 		imgClass: 'five',
 	},
 	{
-		name: 'Scalable',
+		name: 'Wax',
 		description:
-			'Our servers are located all over the world, therefore improving scalability and speed ',
-		icon: iconStyle(AiOutlineCloudUpload),
+			'Soft wax, also known as strip waxing ',
+		icon: './assets/png/wax.png',
 		imgClass: 'six',
 	},
 ];

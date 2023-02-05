@@ -3,22 +3,27 @@ import { Row } from '../../globalStyles';
 import Slider from 'react-slick';
 
 export const CarouselImage = styled.img`
-	width: 100%;
-	height: 300px;
-	border-radius: 10px 10px 0 0;
-	object-fit: cover;
-	vertical-align: middle;
+
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: blue;
+  align-self: center
+  margin-bottom:10px;
+  align-self:center;
 `;
 
 export const ImageWrapper = styled.div`
 	width: 90%;
 	display: flex !important;
-	justify-content: center;
+	align-item:center;
 	flex-direction: column;
-	align-items: center;
+	background:#ce2127;
+	justify-content:center;
 	border-radius: 10px;
 	outline: none;
-	height: 430px;
+	
 	@media screen and (min-width: 440px) {
 		border: 1px solid #bebebe;
 	}
@@ -39,6 +44,7 @@ export const ButtonContainer = styled(Row)`
 `;
 
 export const ReviewSlider = styled(Slider)`
+
 	width: 100%;
 	.slick-track {
 		display: flex;
@@ -57,7 +63,7 @@ export const ReviewSlider = styled(Slider)`
 `;
 
 export const CardButton = styled.button`
-	background-color: #1d609c;
+	background-color: #ce2127;
 	font-size: 1.3rem;
 	padding: 5px 10px;
 	color: #fff;
@@ -68,7 +74,25 @@ export const CardButton = styled.button`
 	border: none;
 	border-radius: 0 0 10px 10px;
 	&:hover {
-		background-color: #112f4a;
+		background-color: #75291e;
 		transition: background-color 0.2s ease-in;
 	}
+`;
+export const NamedWrapper = styled.span`
+	color: ${({ color }) => (color ? color : '')};
+	font-size: ${({ size }) => (size ? size : '')};
+	font-weight: ${({ weight }) => (weight ? weight : '')};
+	letter-spacing: ${({ spacing }) => (spacing ? spacing : '')};
+	padding: ${({ padding }) => (padding ? padding : '')};
+	margin: ${({ margin }) => (margin ? margin : '')};
+	margin-bottom: ${({ mb }) => (mb ? mb : '')};
+	margin-top: ${({ mt }) => (mt ? mt : '')};
+	align-self: center;
+`;
+
+export const FeatureButton = styled.div`
+	
+	padding: 20px;
+	align-self:center;
+	
 `;

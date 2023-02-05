@@ -47,14 +47,14 @@ const Navbar = () => {
 		<IconContext.Provider value={{ color: '#fff' }}>
 			<Nav>
 				<NavbarContainer>
-					<NavLogo to="/">
+					{/* <NavLogo to="/">
 						<NavIcon src="./assets/logo.png" alt="logo" />
-						Delta
-					</NavLogo>
-					<MobileIcon onClick={handleClick}>
+						Red Rose
+					</NavLogo> */}
+					{/* <MobileIcon onClick={handleClick}>
 						{show ? <FaTimes /> : <CgMenuRight />}
-					</MobileIcon>
-					<NavMenu show={show}>
+					</MobileIcon> */}
+					{/* <NavMenu show={show}>
 						{data.map((el:any, index:any) => (
 							<NavItem key={index}>
 								<NavLinks onClick={() => closeMobileMenu(el.to, el.id)}>
@@ -62,7 +62,7 @@ const Navbar = () => {
 								</NavLinks>
 							</NavItem>
 						))}
-					</NavMenu>
+					</NavMenu> */}
 				</NavbarContainer>
 			</Nav>
 		</IconContext.Provider>

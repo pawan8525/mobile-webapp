@@ -1,4 +1,5 @@
 import React, {FC, useEffect } from 'react';
+import {Trans,useTranslation} from 'react-i18next';
 import { Container, Section } from '../../globalStyles';
 import {
 	ContentRow,
@@ -15,7 +16,7 @@ import {
 import { useInView } from 'react-intersection-observer';
 import { useAnimation } from 'framer-motion';
 import { ContentProps } from './types';
-
+import i18next from 'i18next';
 export const Content:FC<ContentProps> = ({
 	primary,
 	topLine,
@@ -29,7 +30,7 @@ export const Content:FC<ContentProps> = ({
 }) => {
 	const initial = { opacity: 0, y: 30 };
 	const animation = useAnimation();
-
+	const { t } = useTranslation('profile_heading');
 	const { ref, inView } = useInView({ threshold: 0.2 });
 
 	useEffect(() => {
@@ -60,7 +61,10 @@ export const Content:FC<ContentProps> = ({
 								animate={animation}
 								inverse={inverse}
 							>
-								{headline}
+							
+							
+							{i18next.t(headline)}
+								
 							</Heading>
 							<Subtitle
 								initial={initial}
@@ -68,8 +72,10 @@ export const Content:FC<ContentProps> = ({
 								animate={animation}
 								inverse={inverse}
 							>
-								{description}
+							
+								{i18next.t(description)}
 							</Subtitle>
+							<a href="https://api.whatsapp.com/send?phone=919416166226&text=Hi Sunita Mam" target="_blank">
 							<ContentButton
 								initial={initial}
 								transition={{ delay: 1, duration: 0.6 }}
@@ -77,8 +83,9 @@ export const Content:FC<ContentProps> = ({
 								inverse={inverse}
 								primary={primary}
 							>
-								{buttonLabel}
+								{i18next.t(buttonLabel)}
 							</ContentButton>
+							</a>
 						</TextWrapper>
 					</ContentColumn>
 					<ContentColumn
@@ -87,12 +94,12 @@ export const Content:FC<ContentProps> = ({
 						animate={animation}
 					>
 						<ImgWrapper>
-							<Img
+							 <Img
 								src={img}
 								alt={alt}
-								whileHover={{ rotate: 2, scale: 1.02 }}
+								
 								transition={{ duration: 0.5 }}
-							/>
+							/> 
 						</ImgWrapper>
 					</ContentColumn>
 				</ContentRow>

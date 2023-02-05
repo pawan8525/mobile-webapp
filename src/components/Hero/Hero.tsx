@@ -1,22 +1,52 @@
-import React from 'react';
+import React,{useEffect,useState,useRef} from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Container, MainHeading } from '../../globalStyles';
 import { HeroVideo, HeroSection, HeroText, ButtonWrapper, HeroButton } from './HeroStyles';
+import {useTranslation} from 'react-i18next';
 
 const Hero = () => {
+	const v1="./assets/v1.mp4";
+	const v2="./assets/v2.mp4";
+	const v3="./assets/v3.mp4";
+	const v4="./assets/v4.mp4";
+	const v5="./assets/v5.mp4";
+	const v6="./assets/v6.mp4";
+	const {t}=useTranslation();
+	const [vidIndex, setVidIndex] = useState(0);
+	const ref = useRef<HTMLVideoElement>(null);
+	// useEffect(() => {
+	//   if (vidIndex === 0 && ref.current) {
+	// 	ref?.current.play();
+	//   }
+	// }, [ref, vidIndex]);
+	const videos = [v1, v2,v3,v4,v5,v6];
 	return (
 		<HeroSection>
-			<HeroVideo src="./assets/hero.mp4" autoPlay muted />
+			{console.log("videos[vidIndex]",videos[vidIndex])}
+			{console.log("vidIndex",vidIndex)}
+			<HeroVideo   src={v1} autoPlay muted  />
+		
+      <HeroVideo
+    
+        src={videos[vidIndex]}
+        muted
+        autoPlay
+		ref={ref}
+		onEnded={() => setVidIndex((idx) => idx==videos.length ? 0 :idx + 1)}
+      />
 			<Container>
-				<MainHeading>Your data is secure with us</MainHeading>
+				<MainHeading>{t('profile_description')}</MainHeading>
 				<HeroText>
-					We provide the best security systems for clients all over the world
+				{t('profile_heading')}
 				</HeroText>
 				<ButtonWrapper>
-					<Link to="signup">
-						<Button>Get Started</Button>
-					</Link>
-					<HeroButton>Find More</HeroButton>
+					
+				<a href="https://api.whatsapp.com/send?phone=919416166226&text=Hi Sunita Mam" target="_blank">
+						<Button>{t('book_now')}</Button>
+					</a>
+					<a href="https://api.whatsapp.com/send?phone=919416166226&text=Hi Sunita Mam" target="_blank">
+					<HeroButton>{t('learn_more')}</HeroButton>
+					</a>
 				</ButtonWrapper>
 			</Container>
 		</HeroSection>

@@ -1,14 +1,15 @@
+import i18next from 'i18next';
 export const heroOne = {
 	reverse: true,
 	inverse: true,
 	topLine: {
-		text: 'Founded in 2012',
+		text: 'Founded in 1979',
 	},
-	headline: "We've been in business for 9 years",
-	description: 'We have designed and implemented the best cloud security solutions',
-	buttonLabel: 'Find More',
+	headline:"profile_heading2",
+	description: 'profile_description2',
+	buttonLabel: 'book_now',
 	imgStart: 'start',
-	img: './assets/svg/Deal.svg',
+	img: './assets/png/sunita_profile.jpg',
 	start: 'true',
 };
 
@@ -16,15 +17,15 @@ export const heroTwo = {
 	reverse: false,
 	inverse: false,
 	topLine: {
-		text: 'Designed & Developed',
+		text: 'Training & Placement',
 	},
-	headline: 'The best practices',
-	description: 'Our clients have had the best experience working with us',
-	buttonLabel: 'View Project',
+	headline: 'training_headline',
+	description: 'training_description',
+	buttonLabel: "book_now",
 
 	linkTo: '/more',
 	imgStart: 'start',
-	img: './assets/svg/Connection.svg',
+	img: './assets/picture/course.jpg',
 	start: 'true',
 };
 
@@ -36,11 +37,11 @@ export const heroThree = {
 	},
 	headline: 'Why us? ',
 	description:
-		'Our 9 year experience have allowed us to use the most innovative technologies and methodologies',
-	buttonLabel: 'View Project',
+	"why_us_reason",
+	buttonLabel: "book_now",
 
 	linkTo: '/download',
 	imgStart: '',
-	img: './assets/svg/ChartUp.svg',
+	img: './assets/picture/why_us.jpg',
 	start: 'true',
 };

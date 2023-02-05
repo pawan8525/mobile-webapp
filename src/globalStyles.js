@@ -1,5 +1,6 @@
 import styled, { createGlobalStyle } from 'styled-components';
-
+// import img from '../sr/course_bg.jpg';
+import img  from '../src/components/course_bg.jpg';
 const GlobalStyle = createGlobalStyle`
   *{
     box-sizing: border-box;
@@ -22,7 +23,7 @@ export const Container = styled.div`
 export const MainHeading = styled.h1`
 	font-size: clamp(2.3rem, 6vw, 4.5rem);
 	margin-bottom: 2rem;
-	color: ${({ inverse }) => (inverse ? '$403ae3' : '#fff')};
+	color: ${({ inverse }) => (inverse ? '$ce2127' : '#fff')};
 	width: 100%;
 	letter-spacing: 4px;
 	text-align: center;
@@ -33,7 +34,7 @@ export const Heading = styled.h2`
 	margin: ${({ margin }) => (margin ? margin : '')};
 	margin-bottom: ${({ mb }) => (mb ? mb : '')};
 	margin-top: ${({ mt }) => (mt ? mt : '')};
-	color: ${({ inverse }) => (inverse ? '$403ae3' : '#fff')};
+	color: ${({ inverse }) => (inverse ? '#ce2127' : '#fff')};
 	letter-spacing: 0.4rem;
 	line-height: 1.06;
 	text-align: center;
@@ -50,9 +51,10 @@ export const TextWrapper = styled.span`
 	margin-top: ${({ mt }) => (mt ? mt : '')};
 `;
 export const Section = styled.section`
+
 	padding: ${({ padding }) => (padding ? padding : '140px 0')};
 	margin: ${({ margin }) => (margin ? margin : '')};
-	background: ${({ inverse }) => (inverse ? 'white' : '#071c2f')};
+  background: ${({ inverse }) => (inverse ?  `url(${img})` : '#ce2127')};
 	position: ${({ position }) => (position ? position : '')};
 	width: ${({ width }) => (width ? width : 'auto')};
 	min-width: ${({ minWidth }) => (minWidth ? minWidth : 'auto')};
