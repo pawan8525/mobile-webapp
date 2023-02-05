@@ -75,7 +75,7 @@ export const Content:FC<ContentProps> = ({
 							
 								{i18next.t(description)}
 							</Subtitle>
-							<a href="https://api.whatsapp.com/send?phone=919416166226&text=urlencodedtext" target="_blank">
+							<a href="https://api.whatsapp.com/send?phone=919416166226&text=Hi Sunita Mam" target="_blank">
 							<ContentButton
 								initial={initial}
 								transition={{ delay: 1, duration: 0.6 }}

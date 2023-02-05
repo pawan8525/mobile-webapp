@@ -41,10 +41,10 @@ const Hero = () => {
 				</HeroText>
 				<ButtonWrapper>
 					
-				<a href="https://api.whatsapp.com/send?phone=919416166226&text=urlencodedtext" target="_blank">
+				<a href="https://api.whatsapp.com/send?phone=919416166226&text=Hi Sunita Mam" target="_blank">
 						<Button>{t('book_now')}</Button>
 					</a>
-					<a href="https://api.whatsapp.com/send?phone=919416166226&text=urlencodedtext" target="_blank">
+					<a href="https://api.whatsapp.com/send?phone=919416166226&text=Hi Sunita Mam" target="_blank">
 					<HeroButton>{t('learn_more')}</HeroButton>
 					</a>
 				</ButtonWrapper>
