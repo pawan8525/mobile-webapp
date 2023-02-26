@@ -1,17 +1,36 @@
 {
   "files": {
     "main.css": "/mobileapp/static/css/main.e6c13ad2.css",
-    "main.js": "/mobileapp/static/js/main.90d9bdfb.js",
+    "main.js": "/mobileapp/static/js/main.91f64ccc.js",
     "static/js/787.61b754b0.chunk.js": "/mobileapp/static/js/787.61b754b0.chunk.js",
-    "static/media/package.png": "/mobileapp/static/media/package.bd4dc2943f7418f11ef3.png",
+    "static/media/v4.mp4": "/mobileapp/static/media/v4.a0389be25dd98e8c49eb.mp4",
+    "static/media/v1.mp4": "/mobileapp/static/media/v1.3bba818706eb53919246.mp4",
+    "static/media/v3.mp4": "/mobileapp/static/media/v3.db74ac31d0d0a2ffd61e.mp4",
+    "static/media/v5.mp4": "/mobileapp/static/media/v5.474b254395a539738370.mp4",
+    "static/media/v6.mp4": "/mobileapp/static/media/v6.b45df2c9df6cfe696bde.mp4",
+    "static/media/v2.mp4": "/mobileapp/static/media/v2.a8bb3eb8a3de4d429d1d.mp4",
+    "static/media/whyUs_hero.jpg": "/mobileapp/static/media/whyUs_hero.77702208464bf79b0f9f.jpg",
+    "static/media/course_hero.jpg": "/mobileapp/static/media/course_hero.fb122c865a4178c1215d.jpg",
+    "static/media/profile_hero.jpg": "/mobileapp/static/media/profile_hero.d22f5702593993230af6.jpg",
+    "static/media/nailArt_carousel.png": "/mobileapp/static/media/nailArt_carousel.0e01cc34c6490e1d9e06.png",
+    "static/media/makeUpArt_carousel.png": "/mobileapp/static/media/makeUpArt_carousel.8ffce297436b033babb3.png",
+    "static/media/skinCare_carousel.png": "/mobileapp/static/media/skinCare_carousel.76b02e6d14673c4ffbc2.png",
+    "static/media/hairCare_carousel.png": "/mobileapp/static/media/hairCare_carousel.d1c988b20f74d4b2f6b2.png",
+    "static/media/waxCare_carousel.png": "/mobileapp/static/media/waxCare_carousel.3b788cb186f18b2a9d0f.png",
+    "static/media/package_feature.png": "/mobileapp/static/media/package_feature.bd4dc2943f7418f11ef3.png",
+    "static/media/hairCare_feature.png": "/mobileapp/static/media/hairCare_feature.cb27e4efae0abd8f5721.png",
+    "static/media/wax_feature.png": "/mobileapp/static/media/wax_feature.72122ef131741778236d.png",
+    "static/media/facial_feature.png": "/mobileapp/static/media/facial_feature.c9de6e873635ac875155.png",
+    "static/media/bleach_feature.png": "/mobileapp/static/media/bleach_feature.cec24e11b3aff2b07724.png",
+    "static/media/makeUp_feature.png": "/mobileapp/static/media/makeUp_feature.b0c060f586ce3e5707db.png",
     "index.html": "/mobileapp/index.html",
     "static/media/getFetch.cjs": "/mobileapp/static/media/getFetch.c780682470504fffbd04.cjs",
     "main.e6c13ad2.css.map": "/mobileapp/static/css/main.e6c13ad2.css.map",
-    "main.90d9bdfb.js.map": "/mobileapp/static/js/main.90d9bdfb.js.map",
+    "main.91f64ccc.js.map": "/mobileapp/static/js/main.91f64ccc.js.map",
     "787.61b754b0.chunk.js.map": "/mobileapp/static/js/787.61b754b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.90d9bdfb.js"
+    "static/js/main.91f64ccc.js"
   ]
 }
