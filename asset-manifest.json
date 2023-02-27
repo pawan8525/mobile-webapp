@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mobileapp/static/css/main.e6c13ad2.css",
-    "main.js": "/mobileapp/static/js/main.ca38bda6.js",
+    "main.js": "/mobileapp/static/js/main.573fa786.js",
     "static/js/651.0f2559df.chunk.js": "/mobileapp/static/js/651.0f2559df.chunk.js",
     "static/media/v4.mp4": "/mobileapp/static/media/v4.a0389be25dd98e8c49eb.mp4",
-    "static/media/v1.mp4": "/mobileapp/static/media/v1.3bba818706eb53919246.mp4",
+    "static/media/v2.mp4": "/mobileapp/static/media/v2.3bba818706eb53919246.mp4",
     "static/media/v3.mp4": "/mobileapp/static/media/v3.db74ac31d0d0a2ffd61e.mp4",
     "static/media/v5.mp4": "/mobileapp/static/media/v5.474b254395a539738370.mp4",
     "static/media/v6.mp4": "/mobileapp/static/media/v6.b45df2c9df6cfe696bde.mp4",
-    "static/media/v2.mp4": "/mobileapp/static/media/v2.a8bb3eb8a3de4d429d1d.mp4",
+    "static/media/v1.mp4": "/mobileapp/static/media/v1.a8bb3eb8a3de4d429d1d.mp4",
     "static/media/whyUs_hero.jpg": "/mobileapp/static/media/whyUs_hero.77702208464bf79b0f9f.jpg",
     "static/media/course_hero.jpg": "/mobileapp/static/media/course_hero.fb122c865a4178c1215d.jpg",
     "static/media/profile_hero.jpg": "/mobileapp/static/media/profile_hero.d22f5702593993230af6.jpg",
@@ -26,11 +26,11 @@
     "index.html": "/mobileapp/index.html",
     "static/media/getFetch.cjs": "/mobileapp/static/media/getFetch.c780682470504fffbd04.cjs",
     "main.e6c13ad2.css.map": "/mobileapp/static/css/main.e6c13ad2.css.map",
-    "main.ca38bda6.js.map": "/mobileapp/static/js/main.ca38bda6.js.map",
+    "main.573fa786.js.map": "/mobileapp/static/js/main.573fa786.js.map",
     "651.0f2559df.chunk.js.map": "/mobileapp/static/js/651.0f2559df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.ca38bda6.js"
+    "static/js/main.573fa786.js"
   ]
 }
