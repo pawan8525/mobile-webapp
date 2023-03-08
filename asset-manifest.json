@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.df18d4ba.js",
+    "main.js": "/static/js/main.590e7497.js",
     "static/js/651.0f2559df.chunk.js": "/static/js/651.0f2559df.chunk.js",
+    "static/media/v1.mp4": "/static/media/v1.9d03a31290490fb2c24b.mp4",
     "static/media/v4.mp4": "/static/media/v4.a0389be25dd98e8c49eb.mp4",
     "static/media/v2.mp4": "/static/media/v2.3bba818706eb53919246.mp4",
     "static/media/v3.mp4": "/static/media/v3.db74ac31d0d0a2ffd61e.mp4",
     "static/media/v5.mp4": "/static/media/v5.474b254395a539738370.mp4",
     "static/media/v6.mp4": "/static/media/v6.b45df2c9df6cfe696bde.mp4",
-    "static/media/v1.mp4": "/static/media/v1.a8bb3eb8a3de4d429d1d.mp4",
+    "static/media/v7.mp4": "/static/media/v7.a8bb3eb8a3de4d429d1d.mp4",
     "static/media/whyUs_hero.jpg": "/static/media/whyUs_hero.77702208464bf79b0f9f.jpg",
     "static/media/course_hero.jpg": "/static/media/course_hero.fb122c865a4178c1215d.jpg",
     "static/media/profile_picture.jpg": "/static/media/profile_picture.7fb8afb4d49d214a60c1.jpg",
@@ -27,11 +28,11 @@
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.c780682470504fffbd04.cjs",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.df18d4ba.js.map": "/static/js/main.df18d4ba.js.map",
+    "main.590e7497.js.map": "/static/js/main.590e7497.js.map",
     "651.0f2559df.chunk.js.map": "/static/js/651.0f2559df.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.df18d4ba.js"
+    "static/js/main.590e7497.js"
   ]
 }
